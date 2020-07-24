@@ -46,3 +46,4 @@ exports.UnauthorizedClientError = require('./lib/errors/unauthorized-client');
 exports.UnauthorizedRequestError = require('./lib/errors/unauthorized-request');
 exports.UnsupportedGrantTypeError = require('./lib/errors/unsupported-grant-type');
 exports.UnsupportedResponseTypeError = require('./lib/errors/unsupported-response-type');
+exports.UnsupportedTokenTypeError = require('./lib/errors/unsupported-token-type');
