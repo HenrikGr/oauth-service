@@ -19,14 +19,14 @@
   "dependencies": {
     "@hgc-ab/debug-service": "^1.0.11",
     "basic-auth": "2.0.1",
-    "statuses": "1.5.0",
+    "statuses": "2.0.0",
     "type-is": "1.6.18"
   },
   "devDependencies": {
-    "jest": "^25.2.7"
+    "jest": "^26.1.0"
   },
   "engines": {
-    "node": "12.13.1",
+    "node": "12.13.0",
     "npm": "6.13.2"
   }
 }
