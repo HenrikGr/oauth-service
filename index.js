@@ -5,33 +5,12 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/**
- * Export Oauth2 Server class
- * @type {OAuth2Server}
- */
 exports = module.exports = require('./lib/server');
-
-/**
- * Export Oauth2 Request class
- * @type {Request}
- */
 exports.Request = require('./lib/request');
-
-/**
- * Export the Oauth2 Response Class
- * @type {Response}
- */
 exports.Response = require('./lib/response');
 
-/**
- * Export helpers for extension grants.
- * @type {AbstractGrant}
- */
 exports.AbstractGrant = require('./lib/grants/abstract-grant');
 
-/**
- * Export error classes.
- */
 exports.AccessDeniedError = require('./lib/errors/access-denied');
 exports.InsufficientScopeError = require('./lib/errors/insufficient-scope');
 exports.InvalidArgumentError = require('./lib/errors/invalid-argument');

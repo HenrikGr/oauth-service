@@ -1,6 +1,5 @@
 # Overview
 
-
 # Background
 In the traditional client-server authentication model, the client
 requests an access-restricted resource (protected resource) on the
@@ -86,7 +85,8 @@ A single authorization server may issue access tokens accepted by
 multiple resource servers.
 
 # @hgc-ab/oauth-service features
-The server has implemented the following standard 
+The server has implemented the following standard;
+
 - [The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749)
 - [The OAuth 2.0 Authorization Framework: Bearer Token Usage specification](https://tools.ietf.org/html/rfc6750)
 - [OAuth 2.0 Token Introspection](https://tools.ietf.org/html/rfc7662)

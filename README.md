@@ -4,7 +4,7 @@
 [![downloads](https://img.shields.io/npm/dm/@hgc-ab/oauth-service.svg?style=flat-square)](http://npm-stat.com/charts.html?package=@hgc-ab/oauth-service&from=2020-07-11)
 [![MIT License](https://img.shields.io/npm/l/@hgc-ab/oauth-service.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-Compliant Oauth 2 Library for Node.js
+Oauth 2 Library for Node.js
 
 ## Usage
 
@@ -14,8 +14,10 @@ Install
 npm i @hgc-ab/oauth-service
 ```
 
-This library used @hgc-ab/debug-service package for debug statements and if you want to debug - use .env files to set 
-environment variables as below.
+## Config
+
+This library used @hgc-ab/debug-service package for debug statements and if you want enabled it
+use .env files to set environment variables as below.
 
 ```shell script
 # Set any value to enforce debugging

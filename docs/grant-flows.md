@@ -115,7 +115,6 @@ request parameter. In turn, the authorization server uses the "scope" response p
 the client of the scope of the access token issued.
 
 
-
 # Oauth 2 data access model
 Each grant flow invoke different functions in the model.
 
