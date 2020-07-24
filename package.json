@@ -1,0 +1,32 @@
+{
+  "name": "@hgc-ab/oauth-service",
+  "version": "0.0.1",
+  "description": "OAuth 2 Library for Node.js",
+  "main": "index.js",
+  "author": "Henrik Grönvall <hgc-ab@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/henrikgr/oauth-service.git"
+  },
+  "keywords": [
+    "OAuth 2 Library"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "dev-test": "jest --runInBand --detectOpenHandles"
+  },
+  "dependencies": {
+    "@hgc-ab/debug-service": "^1.0.11",
+    "basic-auth": "2.0.1",
+    "statuses": "1.5.0",
+    "type-is": "1.6.18"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7"
+  },
+  "engines": {
+    "node": "12.13.1",
+    "npm": "6.13.2"
+  }
+}
