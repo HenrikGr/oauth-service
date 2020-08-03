@@ -17,12 +17,12 @@
     "dev-test": "jest --runInBand --detectOpenHandles"
   },
   "dependencies": {
-    "@hgc-ab/debug-service": "^1.0.11",
+    "@hgc-ab/debug-service": "^1.0.15",
     "basic-auth": "2.0.1",
     "statuses": "2.0.0",
     "type-is": "1.6.18"
   },
   "devDependencies": {
-    "jest": "^26.1.0"
+    "jest": "^26.2.2"
   }
 }
