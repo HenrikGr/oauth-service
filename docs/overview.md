@@ -24,7 +24,7 @@ without revoking access to all third parties, and must do so by
 changing the third party's password.
 
 - Compromise of any third-party application results in compromise of
-the end-user's password and all of the data protected by that
+the end-user password and all the data protected by that
 password.
 
 OAuth addresses these issues by introducing an authorization layer

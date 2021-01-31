@@ -4,7 +4,7 @@
 [![downloads](https://img.shields.io/npm/dm/@hgc-ab/oauth-service.svg?style=flat-square)](http://npm-stat.com/charts.html?package=@hgc-ab/oauth-service&from=2020-07-11)
 [![MIT License](https://img.shields.io/npm/l/@hgc-ab/oauth-service.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-Oauth 2 Library for Node.js
+Oauth2 Library for Node.js
 
 ## Usage
 
