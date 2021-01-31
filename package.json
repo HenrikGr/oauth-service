@@ -8,8 +8,12 @@
     "type": "git",
     "url": "git://github.com/henrikgr/oauth-service.git"
   },
+  "bugs": { 
+    "url" : "https://github.com/henrikgr/oauth-service/issues"
+  },
   "keywords": [
-    "OAuth2 Library"
+    "OAuth2 Javascript Library",
+    "Authorization service"
   ],
   "license": "MIT",
   "scripts": {

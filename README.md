@@ -24,6 +24,7 @@ use .env files to set environment variables as below.
 DEBUG="@hgc-ab/oauth-service:*"
 
 ```
+
 Note: .env files requires that you load them as early in your code as possible, see example below.
 
 ```javascript
@@ -44,14 +45,14 @@ const oAuth2Server = new Server(model)
 The @hgc-ab/oauth-service utilizes authorization server endpoints:
 
 - Authorization endpoint, used by the client to obtain authorization grant from the resource owner.
-- Token endpoint, used by the client to exchange an authorization grant for an access token, typically 
-together with client authentication.
-- Redirection endpoint - used by the authorization server to return responses containing authorization 
-grant to the client via the resource owner user-agent.
+- Token endpoint, used by the client to exchange an authorization grant for an access token, typically together with client authentication.
+- Redirection endpoint - used by the authorization server to return responses containing authorization grant to the client via the resource owner user-agent.
 
-For more information; 
+For more information;
+
 - [Overview](https://github.com/HenrikGr/oauth-service/blob/master/docs/overview.md)
 - [Grant Flows](https://github.com/HenrikGr/oauth-service/blob/master/docs/grant-flows.md)
 
 ## License
+
 MIT
