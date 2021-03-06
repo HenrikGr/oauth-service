@@ -1,6 +1,6 @@
 {
   "name": "@hgc-ab/oauth-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OAuth2 Library for Node.js",
   "main": "index.js",
   "author": "Henrik Grönvall <hgc-ab@outlook.com>",
