@@ -21,6 +21,7 @@
     "dev-test": "jest --runInBand --detectOpenHandles"
   },
   "dependencies": {
+    "@hgc-sdk/crypto": "^1.0.0",
     "@hgc-sdk/logger": "^1.0.0",
     "basic-auth": "^2.0.1",
     "statuses": "^2.0.0",
